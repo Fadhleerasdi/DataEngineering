@@ -6,10 +6,10 @@ This project demonstrates the ETL (Extract, Transform, Load) process using data 
 To extract, transform, and load book data from Goodreads and visualize insights for analysis.
 
 **Group Members**
-1. FADHLEE FAYYADH BIN MOHD RASDI(A195682)
-2. asd
-3. dsa
-4. asd
+1. FADHLEE FAYYADH BIN MOHD RASDI(A195682) : Number of People Vote, Genre
+2. NUR ALYSSA SOFEA BINTI EDRIAN (A195034) : Score, Ratings
+3. NURQISTINA DAMIA BINTI SHAHRINE (A193964) : Title, Author
+4. NUR SABRINA BINTI MOHD HILMAN RAJANG (A192047) : Date Published, No of Reviews
 
 **Dataset**
 - **Website**: [Goodread - Best Young Adult Books Collection](http://goodread)
@@ -77,4 +77,33 @@ To extract, transform, and load book data from Goodreads and visualize insights 
 ├── raw_data.csv                         # Raw scraped data  
 ├── cleaned_data.csv                     # Cleaned and processed data  
 └── README.md                            # Project documentation  
-                   
+```
+
+
+## Setup Instructions
+1. Clone the repository:
+
+        git clone https://github.com/DataEngineering.git
+
+        cd DataEngineering
+
+2. Install dependencies:
+
+        pip install -r requirements.txt
+
+3. Run the ETL process:
+   - Open GROUPPROJECT_DATA_ENGINEERING.ipynb in Jupyter Notebook.
+   - Execute all cells to scrape, clean, and visualize data.
+     
+#
+
+## Tools & Libraries
+- Libraries: BeautifulSoup, requests, pandas, matplotlib
+- Environment: Python 3.x, Jupyter Notebook
+- Platform: Medium for documentation, GitHub for code hosting.
+
+## Key Insights
+- Scraped over 200 book records from the Goodreads website.
+- Transformed raw data into a clean format suitable for analysis.
+
+
