@@ -59,7 +59,7 @@ To extract, transform, and load book data from Goodreads and visualize insights 
 ### 3. Load (2 Points)
 - The cleaned data is saved into a CSV file (raw_data.csv), which can be easily read by pandas or other tools.
 
-###4. Report (8 Points)
+### 4. Report (8 Points)
 **Experience Documentation:**
 1. A detailed project write-up is published on [Medium](https://medium.com/@a192047/scrape-and-perform-extraction-transformation-loading-etl-on-goodreads-3c29abaf688a).
 2. The Medium article includes:
