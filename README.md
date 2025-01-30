@@ -70,4 +70,11 @@ To extract, transform, and load book data from Goodreads and visualize insights 
 **Submission:**
 - Shared the Medium link and cleaned .csv file on UKMFolio.
 
+## Repository Structure
 
+```
+├── GROUPPROJECT_DATA_ENGINEERING.ipynb  # Main ETL process and code  
+├── raw_data.csv                         # Raw scraped data  
+├── cleaned_data.csv                     # Cleaned and processed data  
+└── README.md                            # Project documentation  
+                   
